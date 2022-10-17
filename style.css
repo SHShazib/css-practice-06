@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 50px auto;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    border: 3px solid red;
+    overflow: auto;
+}
+.container img {
+    width: 100%;
+}
+.left{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+.right{
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 25px;
+}
+form{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin-top: 10px;
+}
+.container input:not(.check){
+    width: 100%;
+    font-size: 30px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px #111;
+}
+.container p .check{
+    text-align: center;
+}
+.container input[type="submit"]{
+    margin: 20px 0;
+    float: right;
+    width: fit-content;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+/* form -02 */
+.form{
+    background-color: crimson;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px 80px;
+    margin-bottom: 100px;
+    border-radius: 5%;
+    box-shadow: 0 4px 10px 0 rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0, 0.2);
+}
+.form input{
+    padding: 5px 50px;
+    font-size: 30px;
+    border-color: yellowgreen 0.5;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+.form input .btn{
+    font-weight: 700;
+}
